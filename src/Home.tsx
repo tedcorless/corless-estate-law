@@ -180,7 +180,6 @@ export default function Home() {
           <div className="hero-grid">
             <div className="hero-copy hero-reveal">
               <SectionLabel>Boulder County, Colorado</SectionLabel>
-              <p className="route-note route-note--hero"><span>01</span><i /><b>Starting point / close to home</b></p>
               <h1 id="hero-title">
                 Your estate may be easier to build <em>than you think.</em>
                 <span className="hero-do-this">Let’s do this.</span>
@@ -240,11 +239,10 @@ export default function Home() {
         <section className="attorney-section" id="attorney" aria-labelledby="attorney-title">
           <figure className="attorney-portrait">
             <img src={tedCorlessHeadshotUrl} alt="Ted A. Corless, Esq. in front of the Boulder County foothills" loading="eager" />
-            <figcaption><span>Route point</span><strong>02</strong><small>Rooted in Boulder County</small></figcaption>
           </figure>
 
           <div className="attorney-copy">
-            <SectionLabel>Route point / 02 — Meet your estate lawyer</SectionLabel>
+            <SectionLabel>Meet your estate lawyer</SectionLabel>
             <h2 id="attorney-title">Say hello to Mr. Ted.<br /><em>Build your plan now.</em></h2>
             <p className="attorney-name">Ted A. Corless, Esq.</p>
             <p>
@@ -286,7 +284,7 @@ export default function Home() {
         <section className="plans-section" id="plans" aria-labelledby="plans-title">
           <div className="plans-header">
             <div>
-              <SectionLabel>Route stop / 03 — Personal judgment, modern methods</SectionLabel>
+              <SectionLabel>Personal judgment, modern methods</SectionLabel>
               <h2 id="plans-title">Real conversations. <em>A simpler process.</em></h2>
             </div>
             <p>
@@ -319,8 +317,7 @@ export default function Home() {
 
         <section className="process-section" id="first-call" aria-labelledby="process-title">
           <div className="process-rail">
-            <div className="rail-route" aria-hidden="true"><span>03</span><i /><span>04</span></div>
-            <SectionLabel>Route stop / 04 — A simple process</SectionLabel>
+            <SectionLabel>A simple process</SectionLabel>
             <h2 id="process-title">One short call.<br />A clear path to signing.</h2>
             <p className="process-intro">Technology handles the paperwork so more of Mr. Ted’s time goes to you—and the time it saves is passed on to you in the fee. A lawyer who makes house calls? Yes—throughout Boulder County.</p>
             <a className="text-link text-link--light" href={publicPhoneHref}>
@@ -339,7 +336,7 @@ export default function Home() {
 
         <section className="foundation-section" aria-labelledby="foundation-title">
           <div className="foundation-header">
-            <SectionLabel>Route stop / 05 — Foundation first</SectionLabel>
+            <SectionLabel>Foundation first</SectionLabel>
             <h2 id="foundation-title">Foundations matter—especially <em>when children depend on you.</em></h2>
             <p>A plan is about protecting what you own, who you love, and what happens one day when you are gone. Start with the elements your family needs now; later review belongs only where life calls for it.</p>
           </div>
@@ -362,7 +359,7 @@ export default function Home() {
         <section className="guide-section" id="common-mistakes" aria-labelledby="guide-title">
           <div className="guide-rail">
             <p className="guide-kicker"><FolderOpen size={17} /> A short field guide</p>
-              <SectionLabel>Route stop / 06 — Foundation First guide</SectionLabel>
+              <SectionLabel>Foundation First guide</SectionLabel>
               <h2 id="guide-title">Children first. <em>Foundation first.</em></h2>
               <p>
               Download Next Steps / Answers to Your Questions for a plain-English explanation of the foundational decisions that protect children, family, assets, and your wishes before more advanced tax or savings planning begins.
@@ -430,7 +427,7 @@ export default function Home() {
 
         <section className="communities-section" id="communities" aria-labelledby="communities-title">
           <div className="communities-copy">
-            <SectionLabel>Boulder County route / 07 — Where the work begins</SectionLabel>
+            <SectionLabel>Where the work begins</SectionLabel>
             <h2 id="communities-title">Boulder County first.<br /><em>Designed for the whole county.</em></h2>
             <p>
               Estate planning should feel like it knows the place you call home. The practice is grounded in Boulder County—from Boulder and Longmont to the east-county and foothill communities that make the county distinct.
@@ -439,7 +436,6 @@ export default function Home() {
 
           <div className="route-visual" aria-hidden="true">
             <img src={boulderFieldGuideUrl} alt="" />
-            <span className="route-caption"><Route size={15} /> Boulder County / grounded here</span>
           </div>
 
           <div className="communities-grid">
@@ -460,7 +456,6 @@ export default function Home() {
         <section className="human-section" aria-labelledby="human-title">
           <div className="human-image">
             <img src={boulderFamilyUrl} alt="A family walking together on a Boulder County foothill trail" />
-            <span className="image-route-tag">Route point / the people</span>
           </div>
           <div className="human-copy">
             <SectionLabel>What a plan protects</SectionLabel>
@@ -484,7 +479,7 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div>
-              <SectionLabel>Route end / 08 — Planning conversation</SectionLabel>
+              <SectionLabel>Planning conversation</SectionLabel>
               <h2 id="conversation-title">Call Mr. Ted now. <em>Get your plan moving.</em></h2>
             </div>
             <div className="conversation-detail">
