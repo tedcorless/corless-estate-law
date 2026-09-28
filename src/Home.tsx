@@ -30,7 +30,7 @@ const planningTableUrl = "/hero-desk-flatirons.jpg";
 const boulderFieldGuideUrl = "/hero-desk-flatirons.jpg";
 const boulderFamilyUrl = "/hero-desk-flatirons.jpg";
 const tedCorlessHeadshotUrl = "/ted-corless-headshot.jpg";
-const foundationGuideUrl = "/foundation-first-guide.md";
+const foundationGuideUrl = "/Foundation-First-Guide.pdf";
 const publicPhone = "(720) 378-8967";
 const publicPhoneHref = "tel:+17203788967";
 
@@ -90,18 +90,33 @@ const communities = [
 const firstCallTopics = [
   {
     number: "01",
-    title: "What you want to protect",
-    copy: "Talk about the people, children, pets, home, business, and responsibilities that deserve a clear plan.",
+    title: "A quick hello",
+    copy: "Call Mr. Ted. The first call is short and complimentary—just an introduction. Afterward, you receive an email with a link to book your planning meeting.",
   },
   {
     number: "02",
-    title: "The people you choose",
-    copy: "Talk through the decision-makers and trusted people who should be prepared to act if life changes suddenly.",
+    title: "A 20-minute planning meeting",
+    copy: "By Zoom, phone, or at your kitchen table. We talk about your family and your goals, decide what your plan needs, and set one flat fee—so you know the number before any work begins.",
   },
   {
     number: "03",
-    title: "From draft to signing",
-    copy: "Identify the simple next steps, the focused meetings needed, and any question that belongs in a later review.",
+    title: "A short questionnaire",
+    copy: "A brief online intake that narrows down what you need. It is not the full inventory—just enough to point the work in the right direction.",
+  },
+  {
+    number: "04",
+    title: "Your asset inventory",
+    copy: "Once the direction is set, a guided inventory collects the details your documents depend on, through a secure process rather than email.",
+  },
+  {
+    number: "05",
+    title: "A cost that fits your plan",
+    copy: "Your fee is tied to a plan that meets your needs—but not more than you need—based on your wishes and your assets.",
+  },
+  {
+    number: "06",
+    title: "Review and sign",
+    copy: "Once your documents are drafted, we review them together, answer your questions, and schedule your signing.",
   },
 ];
 
@@ -165,7 +180,6 @@ export default function Home() {
           <div className="hero-grid">
             <div className="hero-copy hero-reveal">
               <SectionLabel>Boulder County, Colorado</SectionLabel>
-              <p className="route-note route-note--hero"><span>01</span><i /><b>Starting point / close to home</b></p>
               <h1 id="hero-title">
                 Your estate may be easier to build <em>than you think.</em>
                 <span className="hero-do-this">Let’s do this.</span>
@@ -218,33 +232,35 @@ export default function Home() {
             <h3>Take care of the children first.</h3>
             <p>If a parent dies or becomes unable to act, a family should not be left wondering who can care for a child, make decisions, or reach the resources intended for that child. The first job of an estate plan is to put those answers in place.</p>
             <div className="scope-line" />
-            <a className="text-link" href={foundationGuideUrl} download="corless-foundation-first-guide.md">Next Steps / Answers to Your Questions <ArrowDownRight size={18} /></a>
+            <a className="text-link" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf">Foundation First: A Plain-English Guide <ArrowDownRight size={18} /></a>
           </div>
         </section>
 
         <section className="attorney-section" id="attorney" aria-labelledby="attorney-title">
           <figure className="attorney-portrait">
             <img src={tedCorlessHeadshotUrl} alt="Ted A. Corless, Esq. in front of the Boulder County foothills" loading="eager" />
-            <figcaption><span>Route point</span><strong>02</strong><small>Rooted in Boulder County</small></figcaption>
           </figure>
 
           <div className="attorney-copy">
-            <SectionLabel>Route point / 02 — Meet your estate lawyer</SectionLabel>
+            <SectionLabel>Meet your estate lawyer</SectionLabel>
             <h2 id="attorney-title">Say hello to Mr. Ted.<br /><em>Build your plan now.</em></h2>
             <p className="attorney-name">Ted A. Corless, Esq.</p>
             <p>
-              Raised in Missouri, Mr. Ted has practiced law for more than 30 years in Colorado, Missouri, Kansas, and Florida. Earlier in his career, he worked at two of the nation’s largest law firms and represented sophisticated clients in significant matters. In law school, he captained the trial team to a top-ten national finish and served as Managing Editor of the University of Missouri’s law review.
+              Raised in Missouri, Mr. Ted began his legal career at the University of Missouri–Kansas City School of Law, where he captained the law school’s trial team to a top-ten national finish and served as Managing Editor of the UMKC Law Review.
             </p>
             <p>
-              He has spent much of his career litigating the kinds of documents, insurance interests, businesses, and financial relationships that estate plans are meant to protect. That experience shapes the documents he now creates for his clients: clear, practical, and written with an eye toward how they will actually work when a family needs them.
+              Over the next 30 years, he practiced law in Colorado, Missouri, Kansas, and Florida. Early in his career, he worked at two of the nation’s largest law firms, representing some of the most sophisticated and powerful clients in business. With more than 50 jury trials and three decades of experience handling complex legal matters, Mr. Ted now brings that same depth of experience, judgment, and practical approach to representing individuals and their families.
             </p>
             <p>
-              Mr. Ted also makes house calls. He will meet clients at home and, when circumstances call for it, at a hospital or hospice. The firm uses modern technology where it makes the process easier, including a simple asset-inventory process and secure methods for sensitive information. Technology supports the work; it does not replace the lawyer.
+              Mr. Ted also makes house calls—by Zoom or in person throughout Boulder County and surrounding communities. He often meets clients in their homes and, when circumstances require it, at hospitals or hospice.
+            </p>
+            <p>
+              The firm uses modern technology where it makes the process easier, including a simple asset-inventory process and secure methods for handling sensitive information. Technology does not replace personal attention. It takes care of the routine work, leaving more time for one-on-one conversations, questions, and the thoughtful discussions that are at the heart of good estate planning.
             </p>
             <a className="button button--brick attorney-cta" href={publicPhoneHref}>Call Mr. Ted Now <MoveRight size={18} /></a>
             <div className="attorney-facts" aria-label="Attorney profile summary">
               <span><b>30+</b> years in practice</span>
-              <span><b>Dozens</b> of jury trials</span>
+              <span><b>50+</b> jury trials</span>
               <span><b>1</b> Boulder County home</span>
             </div>
           </div>
@@ -268,7 +284,7 @@ export default function Home() {
         <section className="plans-section" id="plans" aria-labelledby="plans-title">
           <div className="plans-header">
             <div>
-              <SectionLabel>Route stop / 03 — Personal judgment, modern methods</SectionLabel>
+              <SectionLabel>Personal judgment, modern methods</SectionLabel>
               <h2 id="plans-title">Real conversations. <em>A simpler process.</em></h2>
             </div>
             <p>
@@ -301,10 +317,9 @@ export default function Home() {
 
         <section className="process-section" id="first-call" aria-labelledby="process-title">
           <div className="process-rail">
-            <div className="rail-route" aria-hidden="true"><span>03</span><i /><span>04</span></div>
-            <SectionLabel>Route stop / 04 — A simple process</SectionLabel>
-            <h2 id="process-title">A few meetings.<br />A clear foundation.</h2>
-            <p className="process-intro">Start with a complimentary call. If the fit is right, we use a small number of focused in-person or Zoom meetings to clarify goals, prepare the core documents, review them, sign, and close. A lawyer who makes house calls? Yes—throughout Boulder County.</p>
+            <SectionLabel>A simple process</SectionLabel>
+            <h2 id="process-title">One short call.<br />A clear path to signing.</h2>
+            <p className="process-intro">Technology handles the paperwork so more of Mr. Ted’s time goes to you—and the time it saves is passed on to you in the fee. A lawyer who makes house calls? Yes—throughout Boulder County.</p>
             <a className="text-link text-link--light" href={publicPhoneHref}>
               Call Mr. Ted Now <ArrowDownRight size={19} />
             </a>
@@ -321,7 +336,7 @@ export default function Home() {
 
         <section className="foundation-section" aria-labelledby="foundation-title">
           <div className="foundation-header">
-            <SectionLabel>Route stop / 05 — Foundation first</SectionLabel>
+            <SectionLabel>Foundation first</SectionLabel>
             <h2 id="foundation-title">Foundations matter—especially <em>when children depend on you.</em></h2>
             <p>A plan is about protecting what you own, who you love, and what happens one day when you are gone. Start with the elements your family needs now; later review belongs only where life calls for it.</p>
           </div>
@@ -344,13 +359,13 @@ export default function Home() {
         <section className="guide-section" id="common-mistakes" aria-labelledby="guide-title">
           <div className="guide-rail">
             <p className="guide-kicker"><FolderOpen size={17} /> A short field guide</p>
-              <SectionLabel>Route stop / 06 — Foundation First guide</SectionLabel>
+              <SectionLabel>Foundation First guide</SectionLabel>
               <h2 id="guide-title">Children first. <em>Foundation first.</em></h2>
               <p>
-              Download Next Steps / Answers to Your Questions for a plain-English explanation of the foundational decisions that protect children, family, assets, and your wishes before more advanced tax or savings planning begins.
+              Download Foundation First: A Plain-English Guide to Getting Started. It covers the core decisions that protect your children, your family, and your wishes—and how the process with Mr. Ted works, step by step.
               </p>
             <div className="guide-safeguard"><LockKeyhole size={17} /><span>Keep the public step simple. Do not enter asset, account, document, or other confidential details here.</span></div>
-            <a className="guide-download" href={foundationGuideUrl} download="corless-foundation-first-guide.md"><FolderOpen size={17} /> Download Next Steps / Answers to Your Questions <ArrowDownRight size={16} /></a>
+            <a className="guide-download" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf"><FolderOpen size={17} /> Download the Plain-English Guide (PDF) <ArrowDownRight size={16} /></a>
           </div>
 
           <div className="guide-panel" aria-live="polite">
@@ -360,7 +375,7 @@ export default function Home() {
               <h3>Put the essential decisions in place. <em>Then build from there.</em></h3>
               <p>The guide explains why guardianship, decision-making authority, beneficiary coordination, and the core estate documents should come before a family spends months working through advanced planning questions.</p>
               <div className="guide-result__actions">
-                <a className="button button--brick" href={foundationGuideUrl} download="corless-foundation-first-guide.md">Download the guide <ArrowDownRight size={18} /></a>
+                <a className="button button--brick" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf">Download the guide <ArrowDownRight size={18} /></a>
                 <a className="text-link" href={publicPhoneHref}>Call Mr. Ted Now <MoveRight size={18} /></a>
               </div>
             </div>
@@ -412,7 +427,7 @@ export default function Home() {
 
         <section className="communities-section" id="communities" aria-labelledby="communities-title">
           <div className="communities-copy">
-            <SectionLabel>Boulder County route / 07 — Where the work begins</SectionLabel>
+            <SectionLabel>Where the work begins</SectionLabel>
             <h2 id="communities-title">Boulder County first.<br /><em>Designed for the whole county.</em></h2>
             <p>
               Estate planning should feel like it knows the place you call home. The practice is grounded in Boulder County—from Boulder and Longmont to the east-county and foothill communities that make the county distinct.
@@ -421,7 +436,6 @@ export default function Home() {
 
           <div className="route-visual" aria-hidden="true">
             <img src={boulderFieldGuideUrl} alt="" />
-            <span className="route-caption"><Route size={15} /> Boulder County / grounded here</span>
           </div>
 
           <div className="communities-grid">
@@ -442,7 +456,6 @@ export default function Home() {
         <section className="human-section" aria-labelledby="human-title">
           <div className="human-image">
             <img src={boulderFamilyUrl} alt="A family walking together on a Boulder County foothill trail" />
-            <span className="image-route-tag">Route point / the people</span>
           </div>
           <div className="human-copy">
             <SectionLabel>What a plan protects</SectionLabel>
@@ -466,7 +479,7 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div>
-              <SectionLabel>Route end / 08 — Planning conversation</SectionLabel>
+              <SectionLabel>Planning conversation</SectionLabel>
               <h2 id="conversation-title">Call Mr. Ted now. <em>Get your plan moving.</em></h2>
             </div>
             <div className="conversation-detail">
@@ -498,7 +511,7 @@ export default function Home() {
       </main>
 
       <a className="mobile-call-rail" href={publicPhoneHref} aria-label="Call Mr. Ted now at 720 378 8967">
-        <span><b>Call Mr. Ted Now</b><small>Complimentary call · Zoom + in-home welcome</small></span>
+        <span><b>Call Mr. Ted Now</b><small>Quick intro call · 720-378-8967</small></span>
         <MoveRight size={20} />
       </a>
 
