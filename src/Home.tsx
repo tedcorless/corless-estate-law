@@ -28,7 +28,7 @@ const formalLogoLockupUrl = "/corless-horizontal-logo-lockup.png";
 const heroUrl = "/hero-desk-flatirons.jpg";
 const planningTableUrl = "/hero-desk-flatirons.jpg";
 const boulderFieldGuideUrl = "/hero-desk-flatirons.jpg";
-const boulderFamilyUrl = "/hero-desk-flatirons.jpg";
+const summitPhotoUrl = "/mount-bierstadt-summit.jpg";
 const tedCorlessHeadshotUrl = "/ted-corless-headshot.jpg";
 const foundationGuideUrl = "/foundation-first-guide.md";
 const publicPhone = "(720) 378-8967";
@@ -90,18 +90,33 @@ const communities = [
 const firstCallTopics = [
   {
     number: "01",
-    title: "What you want to protect",
-    copy: "Talk about the people, children, pets, home, business, and responsibilities that deserve a clear plan.",
+    title: "A quick hello",
+    copy: "Call Mr. Ted. The first call is short and complimentary—just an introduction. Afterward, you receive an email with a link to book your planning meeting.",
   },
   {
     number: "02",
-    title: "The people you choose",
-    copy: "Talk through the decision-makers and trusted people who should be prepared to act if life changes suddenly.",
+    title: "A 20-minute planning meeting",
+    copy: "By Zoom, phone, or at your kitchen table. We talk about your family and your goals, decide what your plan needs, and set one flat fee—so you know the number before any work begins.",
   },
   {
     number: "03",
-    title: "From draft to signing",
-    copy: "Identify the simple next steps, the focused meetings needed, and any question that belongs in a later review.",
+    title: "A short questionnaire",
+    copy: "A brief online intake that narrows down what you need. It is not the full inventory—just enough to point the work in the right direction.",
+  },
+  {
+    number: "04",
+    title: "Your asset inventory",
+    copy: "Once the direction is set, a guided inventory collects the details your documents depend on, through a secure process rather than email.",
+  },
+  {
+    number: "05",
+    title: "$750 to begin. The balance at signing.",
+    copy: "A $750 payment starts the work and is credited toward your flat fee. The remaining balance is not due until your signing.",
+  },
+  {
+    number: "06",
+    title: "Signed within 90 days",
+    copy: "Signings are scheduled within 90 days after your inventory is complete, unless your circumstances call for more time.",
   },
 ];
 
@@ -303,8 +318,8 @@ export default function Home() {
           <div className="process-rail">
             <div className="rail-route" aria-hidden="true"><span>03</span><i /><span>04</span></div>
             <SectionLabel>Route stop / 04 — A simple process</SectionLabel>
-            <h2 id="process-title">A few meetings.<br />A clear foundation.</h2>
-            <p className="process-intro">Start with a complimentary call. If the fit is right, we use a small number of focused in-person or Zoom meetings to clarify goals, prepare the core documents, review them, sign, and close. A lawyer who makes house calls? Yes—throughout Boulder County.</p>
+            <h2 id="process-title">One short call.<br />A clear path to signing.</h2>
+            <p className="process-intro">Technology handles the paperwork so more of Mr. Ted’s time goes to you—and the time it saves is passed on to you in the fee. A lawyer who makes house calls? Yes—throughout Boulder County.</p>
             <a className="text-link text-link--light" href={publicPhoneHref}>
               Call Mr. Ted Now <ArrowDownRight size={19} />
             </a>
@@ -441,8 +456,8 @@ export default function Home() {
 
         <section className="human-section" aria-labelledby="human-title">
           <div className="human-image">
-            <img src={boulderFamilyUrl} alt="A family walking together on a Boulder County foothill trail" />
-            <span className="image-route-tag">Route point / the people</span>
+            <img src={summitPhotoUrl} alt="Mr. Ted and a friend smiling on the summit of Mount Bierstadt, Colorado" />
+            <span className="image-route-tag">Mount Bierstadt summit / September 2026</span>
           </div>
           <div className="human-copy">
             <SectionLabel>What a plan protects</SectionLabel>
@@ -498,7 +513,7 @@ export default function Home() {
       </main>
 
       <a className="mobile-call-rail" href={publicPhoneHref} aria-label="Call Mr. Ted now at 720 378 8967">
-        <span><b>Call Mr. Ted Now</b><small>Complimentary call · Zoom + in-home welcome</small></span>
+        <span><b>Call Mr. Ted Now</b><small>Quick intro call · 720-378-8967</small></span>
         <MoveRight size={20} />
       </a>
 
