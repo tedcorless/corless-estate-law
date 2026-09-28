@@ -110,13 +110,13 @@ const firstCallTopics = [
   },
   {
     number: "05",
-    title: "$750 to begin. The balance at signing.",
-    copy: "A $750 payment starts the work and is credited toward your flat fee. The remaining balance is not due until your signing.",
+    title: "A cost that fits your plan",
+    copy: "Your fee is tied to a plan that meets your needs—but not more than you need—based on your wishes and your assets.",
   },
   {
     number: "06",
-    title: "Signed within 90 days",
-    copy: "Signings are scheduled within 90 days after your inventory is complete, unless your circumstances call for more time.",
+    title: "Review and sign",
+    copy: "Once your documents are drafted, we review them together, answer your questions, and schedule your signing.",
   },
 ];
 
