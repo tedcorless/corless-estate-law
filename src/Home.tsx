@@ -28,7 +28,7 @@ const formalLogoLockupUrl = "/corless-horizontal-logo-lockup.png";
 const heroUrl = "/hero-desk-flatirons.jpg";
 const planningTableUrl = "/hero-desk-flatirons.jpg";
 const boulderFieldGuideUrl = "/hero-desk-flatirons.jpg";
-const summitPhotoUrl = "/mount-bierstadt-summit.jpg";
+const boulderFamilyUrl = "/hero-desk-flatirons.jpg";
 const tedCorlessHeadshotUrl = "/ted-corless-headshot.jpg";
 const foundationGuideUrl = "/foundation-first-guide.md";
 const publicPhone = "(720) 378-8967";
@@ -456,8 +456,8 @@ export default function Home() {
 
         <section className="human-section" aria-labelledby="human-title">
           <div className="human-image">
-            <img src={summitPhotoUrl} alt="Mr. Ted and a friend smiling on the summit of Mount Bierstadt, Colorado" />
-            <span className="image-route-tag">Mount Bierstadt summit / September 2026</span>
+            <img src={boulderFamilyUrl} alt="A family walking together on a Boulder County foothill trail" />
+            <span className="image-route-tag">Route point / the people</span>
           </div>
           <div className="human-copy">
             <SectionLabel>What a plan protects</SectionLabel>
