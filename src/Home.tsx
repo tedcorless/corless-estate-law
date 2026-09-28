@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 /**
  * Civic Field Notes page: American civic wayfinding meets contemporary editorial design.
  * Use Ponderosa Teal, Brick Signal, field-note labels, asymmetry, and direct, neighborly copy.
@@ -21,14 +22,18 @@ import {
   X,
 } from "lucide-react";
 import { firstVideos } from "./estatePlanningGuide";
+import heroPatioSunset from "./hero-patio-sunset_1.jpg";
+import patioConversation from "./patio-conversation_1.jpg";
+import boulderValleyRainbow from "./boulder-valley-rainbow_1.jpg";
+import tedWithDog from "./ted-with-dog_1.jpg";
 
 const logoUrl = "/corless-keystone-mark.png";
 const reversedLogoUrl = "/corless-horizontal-logo-lockup-reversed.png";
 const formalLogoLockupUrl = "/corless-horizontal-logo-lockup.png";
-const heroUrl = "/hero-desk-flatirons.jpg";
-const planningTableUrl = "/hero-desk-flatirons.jpg";
-const boulderFieldGuideUrl = "/hero-desk-flatirons.jpg";
-const boulderFamilyUrl = "/hero-desk-flatirons.jpg";
+const heroUrl = heroPatioSunset;
+const planningTableUrl = patioConversation;
+const boulderFieldGuideUrl = boulderValleyRainbow;
+const boulderFamilyUrl = tedWithDog;
 const tedCorlessHeadshotUrl = "/ted-corless-headshot.jpg";
 const foundationGuideUrl = "/Foundation-First-Guide.pdf";
 const publicPhone = "(720) 378-8967";
@@ -195,7 +200,7 @@ export default function Home() {
             </div>
 
             <div className="hero-art hero-reveal">
-              <img src={heroUrl} alt="A sunlit home study with a planning portfolio and Colorado foothill view" />
+              <img src={heroUrl} alt="Sunset over the Boulder County foothills from a covered stone patio" />
               <a className="hero-quick-call" href={publicPhoneHref} aria-label="Call Mr. Ted now at 720 378 8967">
                 <span>Complimentary call</span>
                 <strong>Call <span>Mr. Ted</span> Now <MoveRight size={17} /></strong>
@@ -306,7 +311,7 @@ export default function Home() {
               ))}
             </div>
             <figure className="planning-image">
-              <img src={planningTableUrl} alt="A carefully arranged planning folio and pen on a light wood table" />
+              <img src={planningTableUrl} alt="Patio chairs gathered around a table with a view of the Boulder County foothills" />
               <figcaption>
                 <span>Prepared with care</span>
                 <span>Not rushed</span>
@@ -455,7 +460,7 @@ export default function Home() {
 
         <section className="human-section" aria-labelledby="human-title">
           <div className="human-image">
-            <img src={boulderFamilyUrl} alt="A family walking together on a Boulder County foothill trail" />
+            <img src={boulderFamilyUrl} alt="Mr. Ted at home in Boulder County with his Bernese Mountain Dog" style={{ objectPosition: "center 30%" }} />
           </div>
           <div className="human-copy">
             <SectionLabel>What a plan protects</SectionLabel>
