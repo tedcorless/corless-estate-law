@@ -248,18 +248,21 @@ export default function Home() {
             <h2 id="attorney-title">Say hello to Mr. Ted.<br /><em>Build your plan now.</em></h2>
             <p className="attorney-name">Ted A. Corless, Esq.</p>
             <p>
-              Raised in Missouri, Mr. Ted has practiced law for more than 30 years in Colorado, Missouri, Kansas, and Florida. Earlier in his career, he worked at two of the nation’s largest law firms and represented sophisticated clients in significant matters. In law school, he captained the trial team to a top-ten national finish and served as Managing Editor of the University of Missouri’s law review.
+              Raised in Missouri, Mr. Ted began his legal career at the University of Missouri–Kansas City School of Law, where he captained the law school’s trial team to a top-ten national finish and served as Managing Editor of the UMKC Law Review.
             </p>
             <p>
-              He has spent much of his career litigating the kinds of documents, insurance interests, businesses, and financial relationships that estate plans are meant to protect. That experience shapes the documents he now creates for his clients: clear, practical, and written with an eye toward how they will actually work when a family needs them.
+              Over the next 30 years, he practiced law in Colorado, Missouri, Kansas, and Florida. Early in his career, he worked at two of the nation’s largest law firms, representing some of the most sophisticated and powerful clients in business. With more than 50 jury trials and three decades of experience handling complex legal matters, Mr. Ted now brings that same depth of experience, judgment, and practical approach to representing individuals and their families.
             </p>
             <p>
-              Mr. Ted also makes house calls. He will meet clients at home and, when circumstances call for it, at a hospital or hospice. The firm uses modern technology where it makes the process easier, including a simple asset-inventory process and secure methods for sensitive information. Technology supports the work; it does not replace the lawyer.
+              Mr. Ted also makes house calls—by Zoom or in person throughout Boulder County and surrounding communities. He often meets clients in their homes and, when circumstances require it, at hospitals or hospice.
+            </p>
+            <p>
+              The firm uses modern technology where it makes the process easier, including a simple asset-inventory process and secure methods for handling sensitive information. Technology does not replace personal attention. It takes care of the routine work, leaving more time for one-on-one conversations, questions, and the thoughtful discussions that are at the heart of good estate planning.
             </p>
             <a className="button button--brick attorney-cta" href={publicPhoneHref}>Call Mr. Ted Now <MoveRight size={18} /></a>
             <div className="attorney-facts" aria-label="Attorney profile summary">
               <span><b>30+</b> years in practice</span>
-              <span><b>Dozens</b> of jury trials</span>
+              <span><b>50+</b> jury trials</span>
               <span><b>1</b> Boulder County home</span>
             </div>
           </div>
