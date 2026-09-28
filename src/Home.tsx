@@ -30,7 +30,7 @@ const planningTableUrl = "/hero-desk-flatirons.jpg";
 const boulderFieldGuideUrl = "/hero-desk-flatirons.jpg";
 const boulderFamilyUrl = "/hero-desk-flatirons.jpg";
 const tedCorlessHeadshotUrl = "/ted-corless-headshot.jpg";
-const foundationGuideUrl = "/foundation-first-guide.md";
+const foundationGuideUrl = "/Foundation-First-Guide.pdf";
 const publicPhone = "(720) 378-8967";
 const publicPhoneHref = "tel:+17203788967";
 
@@ -232,7 +232,7 @@ export default function Home() {
             <h3>Take care of the children first.</h3>
             <p>If a parent dies or becomes unable to act, a family should not be left wondering who can care for a child, make decisions, or reach the resources intended for that child. The first job of an estate plan is to put those answers in place.</p>
             <div className="scope-line" />
-            <a className="text-link" href={foundationGuideUrl} download="corless-foundation-first-guide.md">Next Steps / Answers to Your Questions <ArrowDownRight size={18} /></a>
+            <a className="text-link" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf">Foundation First: A Plain-English Guide <ArrowDownRight size={18} /></a>
           </div>
         </section>
 
@@ -362,10 +362,10 @@ export default function Home() {
               <SectionLabel>Foundation First guide</SectionLabel>
               <h2 id="guide-title">Children first. <em>Foundation first.</em></h2>
               <p>
-              Download Next Steps / Answers to Your Questions for a plain-English explanation of the foundational decisions that protect children, family, assets, and your wishes before more advanced tax or savings planning begins.
+              Download Foundation First: A Plain-English Guide to Getting Started. It covers the core decisions that protect your children, your family, and your wishes—and how the process with Mr. Ted works, step by step.
               </p>
             <div className="guide-safeguard"><LockKeyhole size={17} /><span>Keep the public step simple. Do not enter asset, account, document, or other confidential details here.</span></div>
-            <a className="guide-download" href={foundationGuideUrl} download="corless-foundation-first-guide.md"><FolderOpen size={17} /> Download Next Steps / Answers to Your Questions <ArrowDownRight size={16} /></a>
+            <a className="guide-download" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf"><FolderOpen size={17} /> Download the Plain-English Guide (PDF) <ArrowDownRight size={16} /></a>
           </div>
 
           <div className="guide-panel" aria-live="polite">
@@ -375,7 +375,7 @@ export default function Home() {
               <h3>Put the essential decisions in place. <em>Then build from there.</em></h3>
               <p>The guide explains why guardianship, decision-making authority, beneficiary coordination, and the core estate documents should come before a family spends months working through advanced planning questions.</p>
               <div className="guide-result__actions">
-                <a className="button button--brick" href={foundationGuideUrl} download="corless-foundation-first-guide.md">Download the guide <ArrowDownRight size={18} /></a>
+                <a className="button button--brick" href={foundationGuideUrl} download="Corless-Foundation-First-Guide.pdf">Download the guide <ArrowDownRight size={18} /></a>
                 <a className="text-link" href={publicPhoneHref}>Call Mr. Ted Now <MoveRight size={18} /></a>
               </div>
             </div>
