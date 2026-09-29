@@ -506,7 +506,7 @@ export default function Home() {
                   <p>Do not send account numbers, documents, passwords, or other sensitive information until the firm has arranged a secure method for doing so.</p>
                   <div className="guide-result__actions">
                     <a className="button button--brick" href={publicPhoneHref}>Call Mr. Ted Now <MoveRight size={18} /></a>
-                    <a className="text-link" href="mailto:ted@corlessestatelaw.com?subject=Estate%20planning%20conversation">Email the firm <ArrowUpRight size={18} /></a>
+                    <a className="text-link" href="mailto:ted@mrted.ai?subject=Estate%20planning%20conversation">Email the firm <ArrowUpRight size={18} /></a>
                   </div>
                 </div>
               </div>
