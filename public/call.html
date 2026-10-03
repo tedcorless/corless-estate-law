@@ -22,6 +22,9 @@ p.sub{margin:0 0 30px;color:var(--slate);font-size:16px;line-height:1.5;max-widt
 .call:active{transform:translateY(4px);box-shadow:0 2px 0 var(--brick-dark)}
 .call b{font-size:clamp(26px,7vw,34px);font-weight:800;letter-spacing:.02em}
 .call span{font-size:18px;color:#fde9dd;font-weight:600;letter-spacing:.04em}
+.book{display:flex;align-items:center;justify-content:center;gap:10px;width:min(420px,100%);margin-top:14px;padding:18px 20px;background:var(--teal);color:var(--paper);text-decoration:none;border-radius:6px;box-shadow:0 6px 0 var(--teal-dark);font-size:18px;font-weight:800;letter-spacing:.01em;transition:transform .08s}
+.book:active{transform:translateY(4px);box-shadow:0 2px 0 var(--teal-dark)}
+.or{margin:16px 0 2px;color:var(--slate);font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
 .alt{margin-top:26px;display:flex;gap:22px;flex-wrap:wrap;justify-content:center}
 .alt a{color:var(--teal);font-weight:700;font-size:15px;text-decoration:none;border-bottom:2px solid var(--gold);padding-bottom:2px}
 footer{background:var(--teal-dark);color:#b9cfca;font-size:12px;line-height:1.5;padding:16px 20px calc(16px + env(safe-area-inset-bottom));text-align:center}
@@ -30,12 +33,14 @@ footer{background:var(--teal-dark);color:#b9cfca;font-size:12px;line-height:1.5;
 <body>
 <main>
   <img class="logo" src="/corless-horizontal-logo-lockup.png" alt="Corless Estate Law Firm — Boulder County, Colorado">
-  <h1>It's time to plan your estate. <em>Let's do it.</em></h1>
+  <h1>It's time to do your estate plan. <em>Let's do it.</em></h1>
   <p class="sub">A short, complimentary introductory call. Zoom or in-home visits throughout Boulder County.</p>
   <a class="call" href="tel:+17203788967" aria-label="Call Mr. Ted now at 720 378 8967">
     <b>Call Mr. Ted Now</b>
     <span>(720) 378-8967</span>
   </a>
+  <p class="or">or pick a time</p>
+  <a class="book" href="https://calendly.com/mr-ted" target="_blank" rel="noopener">Book a 20-minute call</a>
   <div class="alt">
     <a href="mailto:ted@mrted.ai?subject=Estate%20planning%20conversation">Email the firm</a>
     <a href="/">Visit the website</a>
